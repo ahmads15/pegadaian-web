@@ -1,0 +1,459 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-16T15:49:59.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2594791000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.explore.SetupBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User success simulasi gadai emas",
+        "description": "",
+        "id": "pegadaian-gadai-emas;user-success-simulasi-gadai-emas",
+        "after": [
+          {
+            "result": {
+              "duration": 168664000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.explore.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1266723000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open website Sahabat Pegadaian",
+            "match": {
+              "location": "StepDef.explore.openWebsiteSahabatPegadaian()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3068776000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click menu modal",
+            "match": {
+              "location": "StepDef.explore.clickModal()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1083134000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click menu \"Simulasi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Simulasi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1592178000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click menu \"Simulasi Gadai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Simulasi Gadai\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850029000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click menu \"Gadai Emas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gadai Emas\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066864000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click menu \" Tambah Jaminan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Tambah Jaminan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084275000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click dropdown \"Pilih Jenis Emas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pilih Jenis Emas\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042522000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click dropdown \"Perhiasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Perhiasan\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1091838000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click dropdown \"Pilih Jenis Perhiasan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pilih Jenis Perhiasan\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067016000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click dropdown \"Cincin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cincin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1047418000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click dropdown \"Pilih Kadar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pilih Kadar\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1053748000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click dropdown \"24 Karat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"24 Karat\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 944201000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User input berat \"25\" gram",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDef.explore.inputGram(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240886000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click menu \"Simpan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Simpan\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123343000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User can see item jaminan",
+            "match": {
+              "location": "StepDef.explore.verifyItemJaminan()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1047031000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click dropdown \"Pilih Fitur Produk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pilih Fitur Produk\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1109793000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click dropdown \"Reguler\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Reguler\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054175000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click dropdown \"Pilih Jangka Waktu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pilih Jangka Waktu\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089973000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click dropdown \"120 Hari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"120 Hari\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDef.explore.clickDropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59243000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can see total uang muka",
+            "match": {
+              "location": "StepDef.explore.verifyTotalUangMuka()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1053039000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click menu \"Download Simulasi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Download Simulasi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.explore.clickMenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138547000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User input email \"ahmadsutarji15@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmadsutarji15@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDef.explore.inputEmail(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72180000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click checkbox Tnc",
+            "match": {
+              "location": "StepDef.explore.clickCheckbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65819000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click donwload simulasi modal button",
+            "match": {
+              "location": "StepDef.explore.clickBtnDonwload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63396000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User success donwload simulasi",
+            "match": {
+              "location": "StepDef.explore.verifySuccessDownloadSimulasi()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test_1"
+          }
+        ]
+      }
+    ],
+    "name": "Pegadaian Gadai Emas",
+    "description": "",
+    "id": "pegadaian-gadai-emas",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/pegadaian.feature",
+    "tags": []
+  }
+]

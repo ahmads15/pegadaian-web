@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.508">
+    <testcase classname="Pegadaian Gadai Emas" name="User success simulasi gadai emas" time="28.326">
+        <system-out><![CDATA[Given Open website Sahabat Pegadaian........................................passed
+When User click menu modal..................................................passed
+And User click menu "Simulasi"..............................................passed
+And User click menu "Simulasi Gadai"........................................passed
+And User click menu "Gadai Emas"............................................passed
+And User click menu " Tambah Jaminan".......................................passed
+And User click dropdown "Pilih Jenis Emas"..................................passed
+And User click dropdown "Perhiasan".........................................passed
+And User click dropdown "Pilih Jenis Perhiasan".............................passed
+And User click dropdown "Cincin"............................................passed
+And User click dropdown "Pilih Kadar".......................................passed
+And User click dropdown "24 Karat"..........................................passed
+And User input berat "25" gram..............................................passed
+And User click menu "Simpan"................................................passed
+Then User can see item jaminan..............................................passed
+And User click dropdown "Pilih Fitur Produk"................................passed
+And User click dropdown "Reguler"...........................................passed
+And User click dropdown "Pilih Jangka Waktu"................................passed
+And User click dropdown "120 Hari"..........................................passed
+And User can see total uang muka............................................passed
+And User click menu "Download Simulasi".....................................passed
+And User input email "ahmadsutarji15@gmail.com".............................passed
+And User click checkbox Tnc.................................................passed
+And User click donwload simulasi modal button...............................passed
+And User success donwload simulasi..........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
