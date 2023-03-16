@@ -1,4 +1,4 @@
-# selenium-ymusic
+# Pegadaian Gadai
 
 Yang diperlukan sebelum running automation:
 - Chrome driver version 111 karena menggunakan chromedrive 111
